@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "ClipboardImage"
+version = "0.1.0"
+description = "Turn image from clipboard to a desired filename, in a desired location (relative path to *.py for copying)."
+authors = ["patarapolw <patarapolw@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "*"
+flask = "^1.0"
+click = "^6.7"
+nonrepeat = "^0.1.0"
+
+[tool.poetry.dev-dependencies]

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}"/>
+</head>
+<body>
+  <center>
+    <input id='input-bar' type='text' />
+  </center><br />
+  <center>
+    <img id='image-canvas' />
+  </center>
+
+  <script>var imagePath = "{{ imagePath }}"</script>
+  <script src="{{ url_for('static', filename='index.js') }}"></script>
+</body>
+</html>
